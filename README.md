@@ -1,4 +1,4 @@
-소프트웨어학과 김동연 (20200191)
+# 소프트웨어학과 김동연 (20200191)
 
 # Today, Green - FrontEnd
 오늘, 그린 프론트엔드
@@ -8,9 +8,9 @@
 
 ## 주석 단 파일
 index.html  / index.js<br>
-detail.html / detail.js
-write.html  / write.js
-posts.html  / posts.js
+detail.html / detail.js<br>
+write.html  / write.js<br>
+posts.html  / posts.js<br>
 
 ## 구현 화면
 ### 홈
@@ -26,13 +26,16 @@ posts.html  / posts.js
     - 이미지 썸네일을 표시하여 사진 중심의 커뮤니티임을 나타냄
     - 제목을 사진 밑에 강조 표시하여 가독성에 방해받지 않게 제작
 2. posts.js
-    - URL 쿼리 문자열의 postId 매개변수를 기반으로 서버에서 게시물을 가져옵니다. 게시물 데이터를 가져오면 해당 데이터로 페이지의 관련 HTML 요소를 업데이트함
+    - URL 쿼리 문자열의 postId 매개변수를 기반으로 서버에서 게시물을 가져옵니다. 
+    - 게시물 데이터를 가져오면 해당 데이터로 페이지의 관련 HTML 요소를 업데이트함
+<br>
 
 ### 글 작성
 1. write.html
     - 제목, 내용 작성, 이미지 업로드 및 발행
 2. write.js
     - 게시물 작성 폼의 유효성 검사, 이미지 업로드 및 게시물 전송과 관련된 기능을 구현
+<br>
 
 ### 글 상세 페이지
 1. detail.html
@@ -40,19 +43,20 @@ posts.html  / posts.js
 2. detail.js
     - URL 쿼리 문자열에서 가져온 postId 매개변수를 기반으로 서버에서 게시물을 가져와서 페이지의 HTML 요소를 업데이트
 
+<br>
 
 # Today, Green - BackEnd
 오늘, 그린 백엔드 (로그인 기능)
 
 ## 개요
-로그인, 회원가입, 회원정보 수정, 회원탈퇴 기능 구현
+로그인, 회원가입, 회원정보 수정, 회원탈퇴 기능 구현<br>
 Mock server 를 통해 user 정보를 rest api를 통해 추가/읽기/수정/삭제를 구현한다.
 
 ## 주석 단 파일
-signin.js
-signup.js
-mypage.js
-mypageEdit.js
+signin.js<br>
+signup.js<br>
+mypage.js<br>
+mypageEdit.js<br>
 
 ## 로그인 알고리즘 (JWT)
 1. signin.html에서 로그인 시도(id, password 전송)
@@ -90,3 +94,4 @@ mypageEdit.js
 2. mypageEdit.js
     - 사용자 정보 수정, 계정 삭제, 팝업 처리 등 마이페이지 관련 기능을 구현
     - 사용자의 입력을 유효성 검사하고 서버와의 통신을 통해 정보를 업데이트 / 삭제
+
