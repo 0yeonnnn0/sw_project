@@ -1,0 +1,24 @@
+{
+  "name": "todayshouse",
+  "version": "1.0.0",
+  "description": "오늘의 집",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db": "json-server --watch ./db.json --port 1234"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiheenim27/TodaysHouse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiheenim27/TodaysHouse/issues"
+  },
+  "homepage": "https://github.com/jiheenim27/TodaysHouse#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
