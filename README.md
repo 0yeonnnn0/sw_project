@@ -1,5 +1,6 @@
-# 소프트웨어학과 김동연 (20200191)
-
+# 소프트웨어 프로젝트1 과제
+## 소프트웨어학과 김동연 (20200191)
+<br>
 # Today, Green - FrontEnd
 오늘, 그린 프론트엔드
 
@@ -20,6 +21,7 @@ posts.html  / posts.js<br>
     - 각종 나타낸 부분들을 각주로 표시함
 2. index.js
     - 사이드바 토글과 관련된 기능들을 표시함.
+<br>
 
 ### 커뮤니티
 1. posts.html
@@ -42,7 +44,6 @@ posts.html  / posts.js<br>
     - 제목, 글 내용, 이미지 업로드 기능, 발행 일자 구현
 2. detail.js
     - URL 쿼리 문자열에서 가져온 postId 매개변수를 기반으로 서버에서 게시물을 가져와서 페이지의 HTML 요소를 업데이트
-
 <br>
 
 # Today, Green - BackEnd
@@ -61,7 +62,7 @@ mypageEdit.js<br>
 ## 로그인 알고리즘 (JWT)
 1. signin.html에서 로그인 시도(id, password 전송)
 2. 서버의 mock data에서 유효한 id, password인지 확인 / 유효한 경우 jwt 생성하여 cookie에 저장
-3. 발급한 JWT를 clietn로 보낸다.
+3. 발급한 JWT를 client로 보낸다.
 4. 이후 요청 시 JWT를 함께 보낸다.
 5. 서버에서 토큰이 조작되어 있는지, 유효기간이 유효한지 확인
 6. client에게 response를 보낸다.
