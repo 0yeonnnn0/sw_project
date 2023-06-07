@@ -7,7 +7,7 @@
 오늘, 그린의 홈페이지 및 커뮤니티, 글 내용, 글 작성 페이지 구현
 
 ## 주석 단 파일
-index.html  / index.js
+index.html  / index.js<br>
 detail.html / detail.js
 write.html  / write.js
 posts.html  / posts.js
