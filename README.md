@@ -15,10 +15,10 @@ write.html  / write.js<br>
 posts.html  / posts.js<br>
 
 ### 위치
-프론트 - html
-sw_project/Today_green_frontend/
-프론트 - 자바스크립트
-sw_project/Today_green_frontend/src/
+프론트 - html<br>
+sw_project/Today_green_frontend/<br>
+프론트 - 자바스크립트<br>
+sw_project/Today_green_frontend/src/<br>
 
 ## 구현 화면
 ### 홈
@@ -67,8 +67,8 @@ mypage.js<br>
 mypageEdit.js<br>
 
 ### 위치
-백엔드 자바스크립트
-sw_project/Today_green_backend/public/js/
+백엔드 자바스크립트<br>
+sw_project/Today_green_backend/public/js/<br>
 
 ## 로그인 알고리즘 (JWT)
 1. signin.html에서 로그인 시도(id, password 전송)
